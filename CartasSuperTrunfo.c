@@ -15,7 +15,7 @@ int main() {
     char codigodacarta[5];
     char nomedacidade [50];
     int populacao,pontosturisticos;
-    float area,pib;
+    float area,pib,densidadePopulacional,pibPercapta;
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
@@ -37,6 +37,13 @@ int main() {
     printf("Qual é a quantidade de pontos turisticas desta cidade? \n");
     scanf("%d",&pontosturisticos);
     printf("--- Cadastrando ---\n");
+// Desafio Avançado
+// Realizando os calculos da segunda fase do desafio
+
+    densidadePopulacional = populacao / area;
+
+    pibPercapta = pib / populacao;
+
     printf("*\n");
     printf("**\n");
     printf("***\n");
@@ -52,6 +59,8 @@ int main() {
     printf("População: %d \n",populacao);
     printf("Área em Km²: %.2f \n",area);
     printf("PIB: %.2f Reais. \n",pib);
+    prinf("Densidade Populacional: %.2f",densidadePopulacional);
+    prinf("PIB per Capita: %.2f",pibPercapta);
     printf("Quantidade de pontos turisticos: %d \n\n",pontosturisticos);
     printf("---- Super Trunfo Cidades ---- \n\n");
 return 0;
