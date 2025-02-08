@@ -10,7 +10,7 @@ int main() {
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-  
+
     char estado;
     char codigodacarta[5];
     char nomedacidade [50];
@@ -53,15 +53,17 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.*/
+
     printf("---- Super Trunfo Cidades | Carta cadastrada com sucesso ---- \n\n");
     printf("Carta: %c%s \n",estado,codigodacarta);
     printf("Cidade: %s \n",nomedacidade);
     printf("População: %d \n",populacao);
     printf("Área em Km²: %.2f \n",area);
     printf("PIB: %.2f Reais. \n",pib);
-    prinf("Densidade Populacional: %.2f",densidadePopulacional);
-    prinf("PIB per Capita: %.2f",pibPercapta);
+    printf("Densidade Populacional: %.2f \n",densidadePopulacional);
+    printf("PIB per Capita: %.2f \n",pibPercapta);
     printf("Quantidade de pontos turisticos: %d \n\n",pontosturisticos);
     printf("---- Super Trunfo Cidades ---- \n\n");
+
 return 0;
 }
