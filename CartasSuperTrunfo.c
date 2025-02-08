@@ -50,8 +50,8 @@ int main() {
     printf("Carta: %c%s \n",estado,codigodacarta);
     printf("Cidade: %s \n",nomedacidade);
     printf("População: %d \n",populacao);
-    printf("Área em Km²: %f \n",area);
-    printf("PIB: %f Reais. \n",pib);
+    printf("Área em Km²: %.2f \n",area);
+    printf("PIB: %.2f Reais. \n",pib);
     printf("Quantidade de pontos turisticos: %d \n\n",pontosturisticos);
     printf("---- Super Trunfo Cidades ---- \n\n");
 return 0;
